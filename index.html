@@ -19,7 +19,7 @@
     <nav class="bg-white/90 backdrop-blur-sm border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <img src="USDT ERC20.png" alt="USDT Logo" class="w-8 h-8 rounded-full shadow-sm">
+                <img src="logo (1).png" alt="Token Logo" class="w-8 h-8 rounded-full shadow-sm">
                 <span class="font-bold text-xl tracking-tight text-slate-900">Offchain<span class="text-indigo-600">Market</span></span>
             </div>
             <div>
@@ -31,7 +31,7 @@
     </nav>
 
     <div class="relative w-full bg-slate-900 overflow-hidden">
-        <img src="banner USDT ERC20.png" alt="USDT ERC-20 Project Banner" class="w-full h-auto object-cover opacity-80" style="max-height: 400px;">
+        <img src="image_a47413.png" alt="USDT ERC-20 Project Banner" class="w-full h-auto object-cover opacity-80" style="max-height: 400px;">
         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 to-transparent flex items-end">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
                 <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase">Project Launch</span>
@@ -133,7 +133,7 @@
 
             <div class="glass-card rounded-2xl p-8 shadow-sm">
                 <div class="flex items-center space-x-3 mb-6">
-                    <div class="w-10 h-10 bg-indigo-600 text-white rounded-xl flex items-center justify-center shadow-sm">
+                    <div class="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center shadow-sm">
                         <i class="fa-solid fa-piggy-bank"></i>
                     </div>
                     <div>
@@ -177,7 +177,6 @@
             const converted = document.getElementById('convertedValue');
 
             if (amount > 0) {
-                // Mock calculation, assumes 1:1 for illustration
                 converted.innerText = `$ ${Number(amount).toLocaleString('en-US', { minimumFractionDigits: 2 })} USD`;
                 alert('Order simulated successfully for ' + amount + ' ' + assetType);
             } else {
@@ -188,13 +187,13 @@
         function copyAddress() {
             const addr = "0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08";
             navigator.clipboard.writeText(addr);
-            alert('Wallet address copied to clipboard.');
+            alert('Address copied to clipboard.');
         }
 
         function copyRDN() {
             const rdn = "5401575911";
             navigator.clipboard.writeText(rdn);
-            const textEl = document.getElementById('rdnCopyText');
+            const textEl = document.getElementById('rdCopyText');
             textEl.innerText = 'Copied successfully!';
             setTimeout(() => {
                 textEl.innerText = 'Copy Bank Account';
