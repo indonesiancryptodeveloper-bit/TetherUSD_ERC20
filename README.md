@@ -1,5 +1,5 @@
 # TetherUSD_ERC20
-Nama repositori: TetherUSD_ERC20  Keterangan: EVM-compatible smart contract for Tether USD (USDT), supporting seamless cross-border OTC liquidity management and stable parities on the BNB Smart Chain network.  Visibilitas: Publik  Inisialisasi repositori ini dengan: Tambahkan file README (opsional, tetapi disarankan untuk dokumentasi)
+Nama repositori: TetherUSD_ERC20  Keterangan: EVM-compatible smart contract for Tether USD (USDT), supporting seamless cross-border OTC liquidity management and stable parities on the ETHEREUM Chain network.  Visibilitas: Publik  Inisialisasi repositori ini dengan: Tambahkan file README (opsional, tetapi disarankan untuk dokumentasi)
 # Tether USD (USDT) ERC-20 on Ethereum Network
 
 Smart contract for Tether USD (USDT) to support seamless over-the-counter (OTC) digital asset trading, liquidity management, and cross-border settlement within the Offchain Market ecosystem.
@@ -10,7 +10,7 @@ Smart contract for Tether USD (USDT) to support seamless over-the-counter (OTC) 
 - **Symbol:** USDT
 - **Decimals:** 6
 - **Total Supply:** 200,000,000,000 USDT
-- **Network:** BNB Smart Chain (BEP-20)
+- **Network:** ETHEREUM (ERC-20)
 - **Contract Address:** `0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08`
 
 ## Features
