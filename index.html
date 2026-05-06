@@ -3,60 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offchain Market - Tether USD (USDT)</title>
+    <title>Offchain Market - Tether USD (USDT) ERC-20 Platform</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         .glass-card {
-            background: rgba(255, 255, 255, 0.98);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(226, 232, 240, 0.8);
-        }
-        .hero-gradient {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        }
-        .btn-wa {
-            background-color: #25D366;
-            transition: all 0.3s ease;
-        }
-        .btn-wa:hover {
-            background-color: #128C7E;
-            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(226, 232, 240, 0.6);
         }
     </style>
 </head>
 <body class="bg-slate-50 font-sans text-slate-800 antialiased">
 
-    <nav class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
+    <nav class="bg-white/90 backdrop-blur-sm border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
-            <div class="flex items-center space-x-2">
-                <i class="fa-solid fa-circle-nodes text-indigo-600 text-2xl"></i>
+            <div class="flex items-center space-x-3">
+                <img src="USDT ERC20.png" alt="USDT Logo" class="w-8 h-8 rounded-full shadow-sm">
                 <span class="font-bold text-xl tracking-tight text-slate-900">Offchain<span class="text-indigo-600">Market</span></span>
-            </div>
-            <div class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-600">
-                <a href="#documentation" class="hover:text-indigo-600 transition">Documentation</a>
-                <a href="#transaction" class="hover:text-indigo-600 transition">Simulation</a>
-                <a href="#payment" class="hover:text-indigo-600 transition">Payment & RDN</a>
             </div>
             <div>
                 <a href="https://wa.me/6281328416222" target="_blank" class="bg-slate-900 text-white text-sm px-4 py-2 rounded-lg hover:bg-indigo-600 transition shadow-sm">
-                    Contact Support
+                    Connect
                 </a>
             </div>
         </div>
     </nav>
 
-    <div class="hero-gradient text-white py-20 px-4 text-center">
-        <div class="max-w-4xl mx-auto">
-            <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-xs font-semibold tracking-wide border border-indigo-500/30">
-                OTC Financial Services & Liquidity Management
-            </span>
-            <h1 class="text-4xl sm:text-6xl font-extrabold mt-6 tracking-tight leading-none">
-                Offchain Digital Asset <span class="text-indigo-400">Trading Platform</span>
-            </h1>
-            <p class="mt-4 text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
-                Seamless USDT liquidity management, 1:1 asset parity, and secure over-the-counter operations.
-            </p>
+    <div class="relative w-full bg-slate-900 overflow-hidden">
+        <img src="banner USDT ERC20.png" alt="USDT ERC-20 Project Banner" class="w-full h-auto object-cover opacity-80" style="max-height: 400px;">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 to-transparent flex items-end">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
+                <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase">Project Launch</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white mt-3 tracking-tighter leading-tight">
+                    Tether USD (USDT) <span class="text-indigo-300">on ERC-20</span>
+                </h1>
+            </div>
         </div>
     </div>
 
@@ -64,118 +46,41 @@
         
         <div class="lg:col-span-2 space-y-8">
 
-            <div class="glass-card rounded-2xl p-8 shadow-sm" id="documentation">
-                <div class="flex items-center space-x-4 mb-8">
-                    <div class="w-12 h-12 bg-indigo-600 text-white rounded-xl flex items-center justify-center shadow-md">
-                        <i class="fa-solid fa-book-open text-lg"></i>
-                    </div>
-                    <div>
-                        <h2 class="text-2xl font-bold text-slate-900">Project Overview</h2>
-                        <p class="text-sm text-slate-500 mt-0.5">Asset details and operational characteristics of USDT.</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-slate-50/80 rounded-xl p-6 border border-slate-200 flex flex-col justify-between">
-                        <div>
-                            <div class="text-indigo-600 text-xl mb-3"><i class="fa-solid fa-circle-info"></i></div>
-                            <h3 class="font-bold text-slate-900 mb-2">Description</h3>
-                            <p class="text-xs text-slate-600 leading-relaxed">
-                                Offchain Market facilitates OTC digital asset trading and supports liquidity management.
-                            </p>
-                        </div>
-                        <span class="text-xs text-indigo-600 mt-6 font-medium">MIT Licensed</span>
-                    </div>
-
-                    <div class="bg-indigo-50/60 rounded-xl p-6 border border-indigo-100 flex flex-col justify-between">
-                        <div>
-                            <div class="text-indigo-600 text-xl mb-3"><i class="fa-solid fa-coins"></i></div>
-                            <h3 class="font-bold text-slate-900 mb-2">Asset Contract</h3>
-                            <p class="text-[10px] text-slate-500 mb-2">Total Supply: 200,000,000,000 USDT</p>
-                            <div class="space-y-1 text-xs">
-                                <div class="flex justify-between">
-                                    <span class="text-slate-500">Decimals:</span>
-                                    <span class="font-bold text-slate-800">6</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-slate-500">Network:</span>
-                                    <span class="font-semibold bg-slate-200 px-2 py-0.5 rounded text-slate-800">BEP-20</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-4 p-2 bg-white rounded border border-indigo-100 truncate">
-                            <a href="https://bscscan.com/token/0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08" target="_blank" class="font-mono text-[9px] text-indigo-600 hover:underline flex items-center justify-between">
-                                <span class="truncate max-w-[160px]">0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08</span>
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="bg-slate-50/80 rounded-xl p-6 border border-slate-200 flex flex-col justify-between">
-                        <div>
-                            <div class="text-indigo-600 text-xl mb-3"><i class="fa-solid fa-bolt"></i></div>
-                            <h3 class="font-bold text-slate-900 mb-2">Features</h3>
-                            <ul class="text-xs text-slate-600 space-y-2 list-disc pl-4">
-                                <li>Transparent supply</li>
-                                <li>Parity maintenance (1:1)</li>
-                                <li>Standard burn mechanism</li>
-                            </ul>
-                        </div>
-                        <div class="text-[10px] text-slate-400 mt-6 pt-4 border-t border-slate-200">
-                            Offchain Market Ecosystem
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="glass-card rounded-2xl p-8 shadow-sm">
-                <div class="flex items-center space-x-4 mb-6">
-                    <div class="w-12 h-12 bg-indigo-600 text-white rounded-xl flex items-center justify-center shadow-md">
-                        <i class="fa-solid fa-briefcase text-lg"></i>
+                <div class="flex items-center space-x-4 mb-6 border-b border-slate-100 pb-6">
+                    <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 border border-indigo-100">
+                        <i class="fa-solid fa-user-tie text-xl"></i>
                     </div>
                     <div>
-                        <h2 class="text-2xl font-bold text-slate-900">Executive Leadership</h2>
-                        <p class="text-sm text-slate-500 mt-0.5">Meet the visionary leader driving the Global Brand Market.</p>
+                        <h2 class="text-2xl font-bold text-slate-900">Project Leadership</h2>
+                        <p class="text-sm text-slate-500 mt-0.5">Meet the visionary leader driving the brand.</p>
                     </div>
                 </div>
-                <div class="bg-slate-50/80 rounded-2xl p-8 border border-slate-200 shadow-inner flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-8">
+                <div class="bg-slate-50/70 rounded-2xl p-8 border border-slate-100 flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-8">
                     <div class="flex-shrink-0">
-                        <img src="Hamzah Alatas.png" alt="Hamzah Alatas" class="w-28 h-28 rounded-full border-4 border-white shadow-lg object-cover">
+                        <img src="Hamzah Alatas.png" alt="Hamzah Alatas - Director of Global Brand Market" class="w-28 h-28 rounded-full border-4 border-white shadow-lg object-cover">
                     </div>
                     <div class="flex-grow">
-                        <span class="text-emerald-600 text-xs font-semibold uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">
+                        <span class="text-emerald-700 text-xs font-semibold uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">
                             Director of Global Brand Market
                         </span>
                         <h3 class="text-3xl font-extrabold text-slate-900 mt-3 tracking-tight">HAMZAH ALATAS</h3>
                         <p class="text-base text-slate-600 mt-4 leading-relaxed">
-                            Expanding KDH's market reach in international exchanges and global partnerships. Driven by innovation, excellence, and sustainable growth.
+                            A dynamic leader dedicated to expanding KDH's market reach in international exchanges and global partnerships. Driven by innovation, excellence, and sustainable growth.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="glass-card rounded-2xl p-8 shadow-sm" id="transaction">
+            <div class="glass-card rounded-2xl p-8 shadow-sm">
                 <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
                     <i class="fa-solid fa-calculator text-indigo-600 mr-3"></i> Offchain Transaction Simulator
                 </h2>
-
-                <div class="flex items-center justify-center space-x-6 mb-8 bg-slate-50 p-4 rounded-xl border border-slate-100">
-                    <div class="flex flex-col items-center">
-                        <img src="logo (1).png" alt="USDT Token Logo" class="w-12 h-12 rounded-full border border-slate-200 shadow-sm p-0.5 bg-white">
-                        <span class="text-xs font-bold text-slate-800 mt-1">USDT</span>
-                    </div>
-                    <i class="fa-solid fa-right-left text-slate-400 text-lg"></i>
-                    <div class="flex flex-col items-center">
-                        <img src="https://icons.llamao.fi/icons/chains/rsz_tether.jpg" alt="USDT Logo" class="w-12 h-12 rounded-full border border-slate-200 shadow-sm p-0.5 bg-white">
-                        <span class="text-xs font-bold text-slate-800 mt-1">USDT</span>
-                    </div>
-                </div>
-
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
                         <label class="block text-sm font-medium text-slate-600 mb-2">Select Asset</label>
-                        <select id="assetType" class="w-full border border-slate-200 rounded-lg p-3 bg-slate-50 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
-                            <option value="USDT">USDT (Tether)</option>
+                        <select id="assetType" class="w-full border border-slate-200 rounded-lg p-3 bg-slate-50">
+                            <option value="USDT">Tether USD (USDT)</option>
                         </select>
                     </div>
                     <div>
@@ -186,7 +91,7 @@
                 
                 <div class="bg-indigo-50/50 rounded-xl p-5 border border-indigo-100/50 mb-6 flex items-center justify-between">
                     <div>
-                        <span class="text-sm font-medium text-slate-500">Estimated Conversion Value (1:1)</span>
+                        <span class="text-sm font-medium text-slate-500">Estimated Conversion Value</span>
                         <div class="text-2xl font-bold text-slate-900 mt-1" id="convertedValue">$ 1,000.00 USD</div>
                     </div>
                     <i class="fa-solid fa-circle-check text-indigo-400 text-2xl"></i>
@@ -200,57 +105,56 @@
         </div>
 
         <div class="space-y-8">
-            <div class="glass-card rounded-2xl p-8 shadow-sm flex flex-col items-center text-center" id="payment">
+            <div class="glass-card rounded-2xl p-8 shadow-sm flex flex-col items-center text-center">
                 <div class="w-12 h-12 bg-indigo-50 rounded-full flex items-center justify-center mb-4 text-indigo-600">
                     <i class="fa-solid fa-wallet text-xl"></i>
                 </div>
-                <h3 class="text-xl font-bold text-slate-900">Pintu Receiving Wallet</h3>
-                <p class="text-xs text-slate-500 mt-1 mb-6">Network: BNB Smart Chain (BEP-20)</p>
+                <h3 class="text-xl font-bold text-slate-900">Wallet Receiving Address</h3>
+                <p class="text-xs text-slate-500 mt-1 mb-6">Scan QR to pay or copy address below.</p>
                 
-                <div class="bg-white p-4 border border-slate-200 rounded-xl shadow-sm mb-6">
+                <div class="bg-white p-4 border border-slate-200 rounded-xl shadow-inner mb-6">
                     <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08" alt="Wallet QR" class="w-40 h-40 mx-auto">
                 </div>
 
-                <p class="text-xs text-slate-500 mb-2">Address</p>
                 <div class="flex items-center bg-slate-50 border border-slate-200 rounded-lg p-2 w-full max-w-xs mb-6">
-                    <span class="font-mono text-[10px] text-slate-600 truncate mr-2" id="walletAddr">0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08</span>
+                    <span class="font-mono text-[11px] text-slate-600 truncate mr-2" id="walletAddr">0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08</span>
                     <button onclick="copyAddress()" class="text-indigo-600 hover:text-indigo-800">
                         <i class="fa-regular fa-copy"></i>
                     </button>
                 </div>
 
-                <a href="https://wa.me/6281328416222?text=Hello%20Admin,%20I%20have%20submitted%20my%20payment%20transaction.%20Please%20verify." 
+                <a href="https://wa.me/6281328416222?text=Hi%20Admin,%20I've%20submitted%20my%20payment%20transaction.%20Here's%20my%20receipt:" 
                    target="_blank" 
-                   class="btn-wa w-full text-white py-3 px-4 rounded-xl font-semibold flex items-center justify-center space-x-2 shadow-sm">
+                   class="bg-emerald-500 w-full text-white py-3 px-4 rounded-xl font-semibold flex items-center justify-center space-x-2 shadow-sm hover:bg-emerald-600 transition">
                     <i class="fa-brands fa-whatsapp text-lg"></i>
-                    <span>Confirm Order</span>
+                    <span>Confirm Order via WhatsApp</span>
                 </a>
             </div>
 
             <div class="glass-card rounded-2xl p-8 shadow-sm">
                 <div class="flex items-center space-x-3 mb-6">
-                    <div class="w-10 h-10 bg-indigo-600 text-white rounded-full flex items-center justify-center shadow-sm">
+                    <div class="w-10 h-10 bg-indigo-600 text-white rounded-xl flex items-center justify-center shadow-sm">
                         <i class="fa-solid fa-piggy-bank"></i>
                     </div>
                     <div>
-                        <h3 class="text-lg font-bold text-slate-900">Investment RDN</h3>
-                        <p class="text-xs text-slate-500">Secure Deposits via BCA</p>
+                        <h3 class="text-lg font-bold text-slate-900">RDN BCA</h3>
+                        <p class="text-xs text-slate-500">Secure Deposit via BCA</p>
                     </div>
                 </div>
 
-                <div class="bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-xl p-6 shadow-inner mb-6">
+                <div class="bg-slate-900 text-white rounded-xl p-6 shadow-inner mb-6">
                     <div class="flex justify-between items-start mb-4">
                         <div>
-                            <span class="text-xs tracking-wider text-slate-400 uppercase">Bank Account (RDN)</span>
-                            <div class="text-xl font-bold tracking-wide mt-1">AZHAR</div>
+                            <span class="text-xs text-slate-400 uppercase tracking-wider">Account Name</span>
+                            <div class="text-xl font-bold tracking-tight mt-1">AZHAR</div>
                         </div>
                         <div class="text-right">
-                            <span class="text-xs text-indigo-400 font-semibold">BCA</span>
+                            <span class="text-xs text-indigo-300 font-semibold bg-indigo-900 px-2 py-0.5 rounded">BCA</span>
                         </div>
                     </div>
                     <div class="font-mono text-2xl tracking-wider mb-2">5401 5759 11</div>
                     <div class="text-xs text-slate-400 flex items-center">
-                        <i class="fa-solid fa-circle text-emerald-500 text-xs mr-2 animate-pulse"></i> Verified Account
+                        <i class="fa-solid fa-circle text-emerald-500 text-[8px] mr-2"></i> Verified Business Account
                     </div>
                 </div>
 
@@ -273,17 +177,18 @@
             const converted = document.getElementById('convertedValue');
 
             if (amount > 0) {
+                // Mock calculation, assumes 1:1 for illustration
                 converted.innerText = `$ ${Number(amount).toLocaleString('en-US', { minimumFractionDigits: 2 })} USD`;
-                alert('Transaksi simulasi berhasil untuk ' + amount + ' ' + assetType);
+                alert('Order simulated successfully for ' + amount + ' ' + assetType);
             } else {
-                alert('Masukkan jumlah yang valid.');
+                alert('Please enter a valid amount.');
             }
         }
 
         function copyAddress() {
             const addr = "0x1c762b87c4699b0C8fE029147DD7937a9A1b0E08";
             navigator.clipboard.writeText(addr);
-            alert('Alamat kontrak berhasil disalin.');
+            alert('Wallet address copied to clipboard.');
         }
 
         function copyRDN() {
